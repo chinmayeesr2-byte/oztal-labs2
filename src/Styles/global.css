@@ -62,15 +62,11 @@ body {
 
 .hero p {
   margin: 16px auto 24px; /* spacing below h1 and above image */
-  max-width: 560px;
+  max-width: 460px;
   line-height: 1.6;
   color: #e0e7ff;
 }
 
-.hero-img {
-  max-width: 420px;
-  margin: 32px auto 0;
-}
 
 /* =========================
    BUTTONS
@@ -94,7 +90,7 @@ body {
 }
 
 .section-desc {
-  max-width: 640px;
+  max-width: 540px;
   margin: 16px auto 32px; /* top and bottom spacing normalized */
   color: #555;
 }
