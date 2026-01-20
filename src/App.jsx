@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-import Careers from "./pages/Careers.jsx";
-import Navbar from "./Components/Navbar.jsx";
-import Footer from "./Components/Footer.jsx";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Careers from "./pages/Careers";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
@@ -17,5 +17,4 @@ function App() {
   );
 }
 
-export default App;
 
