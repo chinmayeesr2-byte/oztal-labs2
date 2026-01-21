@@ -5,7 +5,7 @@ export default function Careers() {
     <>
       {/* Hero */}
       <section className="hero">
-        <img src="public/img.png" alt="Team collaboration" className="hero-img" />
+        <img src="public/friends.jpg" alt="Team collaboration" className="hero-img" />
         <h1>Careers at Ozta Labs</h1>
         <p>We are a small team focused on clarity, reliability, and practical outcomes.</p>
       </section>
