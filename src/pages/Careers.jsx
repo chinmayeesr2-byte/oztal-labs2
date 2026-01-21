@@ -1,16 +1,14 @@
-import "../Styles/Careers.css";
+import "../Styles/careers.css";
 
 export default function Careers() {
   return (
     <>
-      {/* Hero */}
       <section className="hero">
         <img src="public/friends.jpg" alt="Team collaboration" className="hero-img" />
         <h1>Careers at Ozta Labs</h1>
         <p>We are a small team focused on clarity, reliability, and practical outcomes.</p>
       </section>
 
-      {/* Sections */}
       <section className="section narrow">
         <h2>How We Work</h2>
         <p>We’re a small team, so everyone’s work matters. We take time to do things properly and care about the quality of what we build.</p>
@@ -34,7 +32,6 @@ export default function Careers() {
         </p>
       </section>
 
-      {/* CTA */}
       <section className="cta">
         <h2>Let’s build the right systems to make everyday work easier.</h2>
         <button className="primary-btn">Contact us</button>
@@ -42,6 +39,8 @@ export default function Careers() {
     </>
   );
 }
+
+
 
 
 

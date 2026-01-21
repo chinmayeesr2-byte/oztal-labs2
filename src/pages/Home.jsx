@@ -1,19 +1,14 @@
 import "../Styles/home.css";
 
-
 export default function Home() {
   return (
     <>
-      {/* Hero */}
       <section className="hero">
         <h1>We are the <span>execution arm of Ozta.</span></h1>
-        <p>
-          We build simple, reliable digital systems that help organizations run better every day.
-        </p>
+        <p>We build simple, reliable digital systems that help organizations run better every day.</p>
         <button className="primary-btn">Contact us</button>
       </section>
 
-      {/* What We Do */}
       <section className="section">
         <h2>What we do</h2>
         <p className="section-desc">
@@ -29,13 +24,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Whom We Work With */}
       <section className="section narrow">
         <h2>Whom We Work With</h2>
         <p>We work with service businesses, SMEs, institutions, and growing organizations, worldwide.</p>
       </section>
 
-      {/* Why Choose Us */}
       <section className="section narrow">
         <h2>Why Organizations Choose Us</h2>
         <p>
@@ -45,7 +38,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* CTA */}
       <section className="cta">
         <h2>Let’s build the right systems to make everyday work easier.</h2>
         <button className="primary-btn">Contact us</button>
@@ -53,6 +45,8 @@ export default function Home() {
     </>
   );
 }
+
+
 
 
 

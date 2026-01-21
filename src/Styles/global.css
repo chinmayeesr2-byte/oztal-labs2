@@ -19,7 +19,6 @@ body {
   padding: 0 24px;
 }
 
-/* Navbar */
 .navbar {
   background-color: #fff;
   border-bottom: 1px solid #e5e7eb;
@@ -37,7 +36,6 @@ body {
   font-size: 15px;
 }
 
-/* Footer */
 .footer {
   background: linear-gradient(180deg, #111827, #000);
   color: #fff;
@@ -53,6 +51,8 @@ body {
   font-size: 14px;
   margin-top: 8px;
 }
+
+
 
 
 
