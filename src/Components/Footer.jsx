@@ -1,3 +1,5 @@
+import "../Styles/global.css";
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -19,5 +21,6 @@ export default function Footer() {
     </footer>
   );
 }
+
 
 

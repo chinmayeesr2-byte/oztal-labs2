@@ -1,6 +1,5 @@
-/* =========================
-   RESET & BASE
-========================= */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,148 +7,53 @@
 }
 
 body {
-  font-family: Inter, system-ui, sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #f8fafc;
-  color: #111;
-  line-height: 1.55;
+  color: #111827;
+  line-height: 1.6;
 }
 
-/* =========================
-   LAYOUT
-========================= */
 .container {
-  max-width: 1140px;
+  max-width: 1120px;
   margin: 0 auto;
-  padding: 0 24px; /* slightly bigger horizontal padding for consistency */
+  padding: 0 24px;
 }
 
-/* =========================
-   NAVBAR
-========================= */
+/* Navbar */
 .navbar {
-  background-color: #ffffff;
+  background-color: #fff;
   border-bottom: 1px solid #e5e7eb;
 }
-
 .nav-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0; /* standardized navbar height */
+  padding: 16px 0;
 }
-
 .nav-links a {
-  margin-left: 24px; /* standardized spacing */
+  margin-left: 24px;
   text-decoration: none;
-  color: #111;
-  font-size: 14px;
+  color: #111827;
+  font-size: 15px;
 }
 
-/* =========================
-   HERO
-========================= */
-.hero {
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
-  color: #ffffff;
-  padding: 64px 0; /* consistent vertical spacing */
-  text-align: center;
-}
-
-.hero h1 {
-  font-size: 40px;
-  font-weight: 600;
-}
-
-.hero p {
-  margin: 16px auto 24px; /* spacing below h1 and above image */
-  max-width: 560px;
-  line-height: 1.6;
-  color: #e0e7ff;
-}
-
-.hero-img {
-  max-width: 420px;
-  margin: 32px auto 0;
-}
-
-/* =========================
-   BUTTONS
-========================= */
-.primary-btn {
-  margin-top: 24px; /* consistent with hero spacing */
-  background-color: #000;
-  color: #fff;
-  padding: 12px 24px; /* standardized padding */
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-/* =========================
-   SECTIONS
-========================= */
-.section {
-  padding: 64px 24px; /* consistent section spacing */
-  text-align: center;
-}
-
-.section-desc {
-  max-width: 640px;
-  margin: 16px auto 32px; /* top and bottom spacing normalized */
-  color: #555;
-}
-
-.narrow {
-  max-width: 680px;
-  margin: auto;
-}
-
-/* =========================
-   CARDS
-========================= */
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 24px; /* consistent gap */
-}
-
-.card {
-  background-color: #ffffff;
-  border: 1px solid #e5e7eb;
-  padding: 24px; /* standardized card padding */
-  text-align: left;
-  border-radius: 8px;
-}
-
-/* =========================
-   CTA
-========================= */
-.cta {
-  background: linear-gradient(135deg, #f5f7ff, #eef1ff);
-  padding: 64px 24px; /* consistent vertical spacing */
-  text-align: center;
-}
-
-/* =========================
-   FOOTER
-========================= */
+/* Footer */
 .footer {
-  background-color: #000;
+  background: linear-gradient(180deg, #111827, #000);
   color: #fff;
-  padding: 48px 24px; /* footer padding */
+  padding: 48px 24px;
 }
-
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px; /* consistent grid gap */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 32px;
 }
-
 .footer p {
-  color: #aaa;
+  color: #9ca3af;
   font-size: 14px;
   margin-top: 8px;
 }
+
 
 
 
