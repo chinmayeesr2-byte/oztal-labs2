@@ -1,0 +1,65 @@
+.page {
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.page h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #2453FA;
+  margin-bottom: 1rem;
+}
+
+.page .subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 2rem;
+}
+
+.page h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.page p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #444;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+
+.page a {
+  color: #2453FA;
+  text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .careers {
+    padding: 1.5rem 1rem 2rem 1rem;
+  }
+
+  .careers h1 {
+    font-size: 2rem;
+  }
+
+  .careers p.subtitle {
+    font-size: 1rem;
+  }
+
+  .careers h2 {
+    font-size: 1.3rem;
+  }
+
+  .careers p {
+    font-size: 0.95rem;
+  }
+}

@@ -1,0 +1,103 @@
+.about-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.about-image img {
+  max-width: 790px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 4rem 2rem 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-hero h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #2453FA;
+  margin-bottom: 1rem;
+}
+
+.about-hero .subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.4;
+}
+
+.about-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #444;
+  line-height: 1.6;
+}
+
+.about-cta {
+  background: linear-gradient(to bottom, #e6f0ff, white);
+  padding: 3rem 2rem;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-cta h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.about-cta button {
+  background: #000;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.about-cta button:hover {
+  background: #333;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .careers {
+    padding: 1.5rem 1rem 2rem 1rem;
+  }
+
+  .careers h1 {
+    font-size: 2rem;
+  }
+
+  .careers p.subtitle {
+    font-size: 1rem;
+  }
+
+  .careers h2 {
+    font-size: 1.3rem;
+  }
+
+  .careers p {
+    font-size: 0.95rem;
+  }
+}

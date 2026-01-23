@@ -1,0 +1,36 @@
+.cta {
+  background: linear-gradient(to bottom, #e6f0ff, white);
+  padding: 3rem 2rem;
+  text-align: left;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.cta button {
+  background: black;
+  color: white;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .cta {
+    text-align: center;
+  }
+
+  .cta p {
+    font-size: 1rem;
+  }
+
+  .cta button {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
