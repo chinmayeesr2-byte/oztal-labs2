@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<About />} />         {/* 👈 Default route */}
-        <Route path="/content" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/careers" element={<Careers />} />
       </Routes>
     </>
