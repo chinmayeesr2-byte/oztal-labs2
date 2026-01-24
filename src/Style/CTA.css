@@ -18,19 +18,5 @@
   cursor: pointer;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .cta {
-    text-align: center;
-  }
 
-  .cta p {
-    font-size: 1rem;
-  }
-
-  .cta button {
-    width: 100%;
-    max-width: 250px;
-  }
-}
 

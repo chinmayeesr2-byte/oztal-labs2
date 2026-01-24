@@ -41,25 +41,39 @@
   text-decoration: none;
 }
 
-/* Mobile */
+
+
+.page img.hero {
+  max-width: 790px;
+  height: auto;
+}
+
+/* 📱 Mobile (phones < 768px) */
 @media (max-width: 768px) {
-  .careers {
-    padding: 1.5rem 1rem 2rem 1rem;
+  .page {
+    padding: 1.5rem 1rem;
   }
 
-  .careers h1 {
-    font-size: 2rem;
+  .page h1 {
+    font-size: 28px;   /* smaller heading */
   }
 
-  .careers p.subtitle {
-    font-size: 1rem;
+  .page .subtitle {
+    font-size: 18px;   /* smaller subtitle */
   }
 
-  .careers h2 {
-    font-size: 1.3rem;
+  .page img.hero {
+    max-width: 100%;   /* scale image to fit screen */
   }
 
-  .careers p {
-    font-size: 0.95rem;
+  .page h2 {
+    font-size: 20px;
+  }
+
+  .page p {
+    font-size: 14px;
+    line-height: 1.4;
   }
 }
+
+
