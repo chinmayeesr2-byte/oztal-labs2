@@ -4,6 +4,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Careers from "./pages/Careers";
 import Home from "./pages/Home";
+import "./Style/global.css";
+
 
 function App() {
   return (
