@@ -1,6 +1,6 @@
 import "../Style/About.css";
 import "../Style/PageLayout.css";
-import Footer from "../components/Footer";
+import Footer from "../Components/Footer";
 import teamImage from "../assets/team.png"; // <-- add your image here
 
 export default function About() {

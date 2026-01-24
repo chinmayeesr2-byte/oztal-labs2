@@ -1,5 +1,5 @@
 import "../Style/PageLayout.css";
-import Footer from "../components/Footer";
+import Footer from "../Components/Footer";
 
 export default function Contact() {
   return (
