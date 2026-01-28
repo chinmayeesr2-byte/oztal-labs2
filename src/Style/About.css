@@ -78,5 +78,54 @@
 .about-cta button:hover {
   background: #333;
 }
+@media (max-width: 768px) {
+  .about-image {
+    margin-bottom: 1.5rem;
+  }
+
+  .about-image img {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .about-hero {
+    padding: 3rem 1rem 1rem;
+  }
+
+  .about-hero h1 {
+    font-size: 32px;
+  }
+
+  .about-hero .subtitle {
+    font-size: 18px;
+  }
+
+  .about-section {
+    padding: 2rem 1rem;
+  }
+
+  .about-section h2 {
+    font-size: 20px;
+  }
+
+  .about-section p {
+    font-size: 14px;
+  }
+
+  .about-cta {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .about-cta h2 {
+    font-size: 20px;
+  }
+
+  .about-cta button {
+    width: 100%;
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+  }
+}
 
 

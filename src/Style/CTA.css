@@ -18,5 +18,40 @@
   cursor: pointer;
 }
 
+/* 📱 Mobile responsiveness */
+@media (max-width: 768px) {
+  .cta {
+    padding: 2rem 1rem;
+    text-align: center; /* center content on smaller screens */
+  }
+
+  .cta p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .cta button {
+    width: 100%;          /* full width button */
+    font-size: 0.9rem;
+    padding: 0.7rem 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta {
+    padding: 1.5rem 1rem;
+  }
+
+  .cta p {
+    font-size: 0.9rem;
+  }
+
+  .cta button {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+  }
+}
+
 
 

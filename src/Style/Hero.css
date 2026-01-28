@@ -33,6 +33,49 @@
   margin: 0;
 }
 
+/* 📱 Tablet responsiveness */
+@media (max-width: 768px) {
+  .hero {
+    padding: 1.5rem 1rem;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 480px) {
+  .hero {
+    padding: 1rem;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+}
+
+
 
 
 
