@@ -1,161 +1,24 @@
-.about-image {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-
 .about-image img {
   max-width: 790px;
   height: auto;
-  display: block;
   margin: 0 auto;
 }
 
 .about-hero {
-  text-align: center;
   padding: 4rem 2rem 2rem;
-  font-family: 'Inter', sans-serif;
-}
-
-.hero-text h1 {
-  font-size: var(--font-size-xl);
-  color: var(--primary-color);
-}
-
-.footer {
-  background: linear-gradient(180deg, #0a0a0a, #1a1a2e);
-  color: var(--muted-text);
-  font-family: var(--font-family);
-}
-
-
-.about-hero .subtitle {
-  font-size: 24px;
-  font-weight: 400;
-  color: #000;
-  line-height: 1.4;
+  text-align: center;
 }
 
 .about-section {
-  text-align: center;
   padding: 3rem 2rem;
-  font-family: 'Inter', sans-serif;
-}
-
-.about-section h2 {
-  font-size: 24px;
-  font-weight: 600;
-  color: #000;
-  margin-bottom: 1rem;
-}
-
-.about-section p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #444;
-  line-height: 1.6;
+  text-align: center;
 }
 
 .about-cta {
   background: linear-gradient(to bottom, #e6f0ff, white);
   padding: 3rem 2rem;
-  text-align: left;
-  font-family: 'Inter', sans-serif;
+  text-align: center;
 }
 
-.about-cta h2 {
-  font-size: 24px;
-  font-weight: 400;
-  color: #000;
-  margin-bottom: 1rem;
-}
-
-.about-cta button {
-  background: #000;
-  color: #fff;
-  padding: 0.8rem 1.6rem;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  cursor: pointer;
-}
-.btn {
-  background: #000;
-  color: #fff;
-  padding: 0.8rem 1.6rem;
-  border: none;
-  border-radius: var(--btn-radius);
-  font-size: var(--font-size-base);
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-.btn:hover {
-  background: #333;
-}
-
-.btn--primary {
-  background: var(--primary-color);
-  color: #fff;
-}
-
-.btn--secondary {
-  background: #fff;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.about-cta button:hover {
-  background: #333;
-}
-@media (max-width: 768px) {
-  .about-image {
-    margin-bottom: 1.5rem;
-  }
-
-  .about-image img {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-
-  .about-hero {
-    padding: 3rem 1rem 1rem;
-  }
-
-  .about-hero h1 {
-    font-size: 32px;
-  }
-
-  .about-hero .subtitle {
-    font-size: 18px;
-  }
-
-  .about-section {
-    padding: 2rem 1rem;
-  }
-
-  .about-section h2 {
-    font-size: 20px;
-  }
-
-  .about-section p {
-    font-size: 14px;
-  }
-
-  .about-cta {
-    padding: 2rem 1rem;
-    text-align: center;
-  }
-
-  .about-cta h2 {
-    font-size: 20px;
-  }
-
-  .about-cta button {
-    width: 100%;
-    font-size: 14px;
-    padding: 0.6rem 1rem;
-  }
-}
 
 

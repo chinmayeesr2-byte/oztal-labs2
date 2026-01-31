@@ -1,5 +1,5 @@
 /* =========================
-   GLOBAL RESET & BASE
+   RESET & VARIABLES
 ========================= */
 * {
   margin: 0;
@@ -8,48 +8,96 @@
 }
 
 :root {
-  /* Colors */
   --primary-color: #2453FA;
   --secondary-color: #2563eb;
   --text-color: #000;
   --muted-text: #444;
   --background-light: #fff;
 
-  /* Spacing */
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
   --spacing-lg: 2rem;
   --spacing-xl: 3rem;
 
-  /* Typography */
   --font-family: 'Inter', sans-serif;
   --font-size-base: 16px;
   --font-size-sm: 14px;
   --font-size-lg: 24px;
   --font-size-xl: 48px;
 
-  /* Buttons */
   --btn-radius: 6px;
 }
+
+/* =========================
+   BASE STYLES
+========================= */
 body {
   font-family: var(--font-family);
-  background-color: var(--background-light);
+  background: var(--background-light);
   color: var(--text-color);
   line-height: 1.6;
   font-size: var(--font-size-base);
 }
 
-h1 {
-  font-size: var(--font-size-xl);
-  color: var(--primary-color);
-}
+h1 { font-size: var(--font-size-xl); color: var(--primary-color); }
+h2 { font-size: var(--font-size-lg); color: var(--text-color); }
+p  { font-size: var(--font-size-base); color: var(--muted-text); }
 
-h2 {
-  font-size: var(--font-size-lg);
-  color: var(--text-color);
-}
-
-p {
+/* =========================
+   COMPONENTS
+========================= */
+.btn {
+  background: #000;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: var(--btn-radius);
   font-size: var(--font-size-base);
-  color: var(--muted-text);
+  cursor: pointer;
+  transition: background 0.2s ease;
 }
+.btn:hover { background: #333; }
+.btn--primary { background: var(--primary-color); color: #fff; }
+.btn--secondary { background: #fff; color: var(--primary-color); border: 1px solid var(--primary-color); }
+
+.hero {
+  text-align: center;
+  padding: 80px 24px;
+}
+.hero h1 { font-size: 44px; font-weight: 700; color: var(--primary-color); margin-bottom: 16px; }
+.hero p { max-width: 560px; margin: 0 auto 24px; color: #374151; }
+
+.footer {
+  background: linear-gradient(180deg, #0a0a0a, #1a1a2e);
+  color: var(--muted-text);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.footer-links { display: flex; flex-direction: column; gap: 0.5rem; }
+.footer-links a { color: #ccc; text-decoration: none; font-size: 14px; }
+.footer-links a:hover { color: #fff; }
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 1024px) {
+  h1 { font-size: 36px; }
+  h2 { font-size: 26px; }
+}
+
+@media (max-width: 768px) {
+  body { font-size: 14px; line-height: 1.4; }
+  h1 { font-size: 28px; }
+  h2 { font-size: 22px; }
+  p  { font-size: 14px; }
+  .btn { width: 100%; font-size: 14px; }
+  .hero { padding: 60px 16px; }
+}
+
+@media (max-width: 480px) {
+  body { font-size: 13px; }
+  h1 { font-size: 24px; }
+  h2 { font-size: 20px; }
+  p  { font-size: 13px; }
+}
+

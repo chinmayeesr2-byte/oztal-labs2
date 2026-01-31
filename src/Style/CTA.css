@@ -1,7 +1,7 @@
 .cta {
   background: linear-gradient(to bottom, #e6f0ff, white);
   padding: 3rem 2rem;
-  text-align: left;
+  text-align: center;
 }
 
 .cta p {
@@ -9,75 +9,6 @@
   margin-bottom: 1rem;
 }
 
-.cta button {
-  background: black;
-  color: white;
-  padding: 0.8rem 1.6rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-/* 📱 Mobile responsiveness */
-@media (max-width: 768px) {
-  .cta {
-    padding: 2rem 1rem;
-    text-align: center; /* center content on smaller screens */
-  }
-
-  .cta p {
-    font-size: 1rem;
-    line-height: 1.4;
-  }
-
-  .cta button {
-    width: 100%;          /* full width button */
-    font-size: 0.9rem;
-    padding: 0.7rem 1rem;
-    margin-top: 1rem;
-  }
-}
-.btn {
-  background: #000;
-  color: #fff;
-  padding: 0.8rem 1.6rem;
-  border: none;
-  border-radius: var(--btn-radius);
-  font-size: var(--font-size-base);
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-.btn:hover {
-  background: #333;
-}
-
-.btn--primary {
-  background: var(--primary-color);
-  color: #fff;
-}
-
-.btn--secondary {
-  background: #fff;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-
-@media (max-width: 480px) {
-  .cta {
-    padding: 1.5rem 1rem;
-  }
-
-  .cta p {
-    font-size: 0.9rem;
-  }
-
-  .cta button {
-    font-size: 0.85rem;
-    padding: 0.6rem;
-  }
-}
 
 
 
