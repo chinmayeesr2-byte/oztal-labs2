@@ -34,6 +34,16 @@
   font-size: 12px;
   color: #888;
 }
+.hero-text h1 {
+  font-size: var(--font-size-xl);
+  color: var(--primary-color);
+}
+
+.footer {
+  background: linear-gradient(180deg, #0a0a0a, #1a1a2e);
+  color: var(--muted-text);
+  font-family: var(--font-family);
+}
 
 /* 📱 Mobile */
 @media (max-width: 768px) {

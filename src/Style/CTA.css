@@ -37,6 +37,32 @@
     margin-top: 1rem;
   }
 }
+.btn {
+  background: #000;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: var(--btn-radius);
+  font-size: var(--font-size-base);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: #333;
+}
+
+.btn--primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.btn--secondary {
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
 
 @media (max-width: 480px) {
   .cta {

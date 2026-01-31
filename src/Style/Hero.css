@@ -22,10 +22,16 @@
 }
 
 .hero-text h1 {
-  font-size: 2.5rem;
-  color: #0077ff;
-  margin-bottom: 0.5rem;
+  font-size: var(--font-size-xl);
+  color: var(--primary-color);
 }
+
+.footer {
+  background: linear-gradient(180deg, #0a0a0a, #1a1a2e);
+  color: var(--muted-text);
+  font-family: var(--font-family);
+}
+
 
 .hero-text p {
   font-size: 1.2rem;
