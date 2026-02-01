@@ -1,8 +1,10 @@
+.hero-image img,
 .about-image img {
-  max-width: 790px;
+  width: 100%;        /* scales to phone width */
+  max-width: 790px;   /* keeps it neat on laptop */
   height: auto;
-  margin: 0 auto;
 }
+
 
 .about-hero {
   padding: 4rem 2rem 2rem;
